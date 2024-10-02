@@ -1,0 +1,6 @@
+# Use PostgreSQL for database
+FROM postgres:13
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin123
+ENV POSTGRES_DB=test
+EXPOSE 5432
